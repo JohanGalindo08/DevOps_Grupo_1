@@ -5,25 +5,28 @@
       echo "Version.txt not found! Exiting."
       exit 1
     fi
-    # Leer la versión actual
     current_version=$(cat Version.txt)
     IFS='.' read -r major minor patch <<< "$current_version"
-    
-    # Incrementar el número de versión PATCH
     patch=$((patch + 1))
     new_version="$major.$minor.$patch"
-
-    # Guardar la nueva versión en el archivo
-    echo $new_version > Version.txt
     
-    # Configurar git
+    # Verificar si la etiqueta ya existe
+    if git ls-remote --tags https://github.com/JohanGalindo08/DevOps_Grupo_1.git | grep "refs/tags/v$new_version" ; then
+      echo "Tag v$new_version already exists. Incrementing patch version."
+      patch=$((patch + 1))
+      new_version="$major.$minor.$patch"
+    fi
+    
+    echo $new_version > Version.txt
     git config --local user.name "github-actions"
     git config --local user.email "actions@github.com"
-    
-    # Hacer commit de los cambios y tag
+    git checkout -b increment-version
     git add Version.txt
-    git commit -m "Increment version to $new_version"
+    git commit -m "Increment version to $new_version" || echo "No changes to commit"
+    
+    # Eliminar la etiqueta remota si ya existe
+    git push --delete origin v$new_version || echo "Tag v$new_version does not exist."
+    
     git tag "v$new_version"
-    git push origin main --tags
-  env:
-    GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    git push "https://JohanGalindo08:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/JohanGalindo08/DevOps_Grupo_1.git" main --tags
+
