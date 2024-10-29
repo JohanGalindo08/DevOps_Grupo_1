@@ -29,7 +29,6 @@ jobs:
           git add Version.txt
           git commit -m "Increment version to $new_version" || echo "No changes to commit"
           git tag "v$new_version"
-          git push https://<JohanGalindo08>:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/JohanGalindo08/DevOps_Grupo_1.git main --tags
+          git push "https://JohanGalindo08:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/JohanGalindo08/DevOps_Grupo_1.git" main --tags
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
