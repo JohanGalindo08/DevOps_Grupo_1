@@ -3,7 +3,7 @@ name: Version Management
 on:
   push:
     branches:
-      - main  # Cambia esto si tu rama principal tiene otro nombre
+      - main
 
 jobs:
   version:
@@ -15,25 +15,20 @@ jobs:
       - name: Increment version
         id: increment_version
         run: |
-          # Leer la versión actual
+          if [ ! -f Version.txt ]; then
+            echo "Version.txt not found! Exiting."
+            exit 1
+          fi
           current_version=$(cat Version.txt)
           IFS='.' read -r major minor patch <<< "$current_version"
-          
-          # Incrementar el número de versión PATCH
           patch=$((patch + 1))
           new_version="$major.$minor.$patch"
-
-          # Guardar la nueva versión en el archivo
           echo $new_version > Version.txt
-          
-          # Configurar git
           git config --local user.name "github-actions"
           git config --local user.email "actions@github.com"
-          
-          # Hacer commit de los cambios y tag
           git add Version.txt
           git commit -m "Increment version to $new_version"
           git tag "v$new_version"
           git push origin main --tags
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Token de GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
