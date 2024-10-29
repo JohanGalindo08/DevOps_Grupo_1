@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|c:\\users\\braya\\desktop\\personal document\\projects\\ecomercceasp-main\\proyectotest\\views\\tienda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\views\\tienda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Views\\Tienda\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProyectoTest\\Views\\Tienda\\Index.cshtml",
+              "ToolTip": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Views\\Tienda\\Index.cshtml",
+              "RelativeToolTip": "ProyectoTest\\Views\\Tienda\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-23T04:13:36.572Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
