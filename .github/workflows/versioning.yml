@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Increment version
         id: increment_version
@@ -27,8 +27,9 @@ jobs:
           git config --local user.name "github-actions"
           git config --local user.email "actions@github.com"
           git add Version.txt
-          git commit -m "Increment version to $new_version"
+          git commit -m "Increment version to $new_version" || echo "No changes to commit"
           git tag "v$new_version"
           git push https://<YOUR_USERNAME>:${{ secrets.PERSONAL_ACCESS_TOKEN }}@github.com/JohanGalindo08/DevOps_Grupo_1.git main --tags
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
