@@ -100,7 +100,11 @@ namespace ProyectoTest.Controllers
 
 
 
+<<<<<<< HEAD
+        /*[HttpGet]
+=======
         [HttpGet]
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
         public JsonResult ListarProducto()
         {
             List<Producto> oLista = new List<Producto>();
@@ -122,8 +126,57 @@ namespace ProyectoTest.Controllers
                           Activo = o.Activo
                       }).ToList();
             return Json(new { data = oLista }, JsonRequestBehavior.AllowGet);
+<<<<<<< HEAD
+        }*/
+
+        [HttpGet]
+        public JsonResult ListarProducto()
+        {
+            List<Producto> oLista = new List<Producto>();
+
+            // Obtener la lista de productos
+            oLista = ProductoLogica.Instancia.Listar();
+
+            oLista = (from o in oLista
+                      select new Producto()
+                      {
+                          IdProducto = o.IdProducto,
+                          Nombre = o.Nombre,
+                          Descripcion = o.Descripcion,
+                          oMarca = o.oMarca,
+                          oCategoria = o.oCategoria,
+                          Precio = o.Precio,
+                          Stock = o.Stock,
+                          RutaImagen = o.RutaImagen,
+                          base64 = ConvertirImagenBase64(o.RutaImagen),
+                          extension = Path.GetExtension(o.RutaImagen).Replace(".", ""),
+                          Activo = o.Activo
+                      }).ToList();
+
+            return Json(new { data = oLista }, JsonRequestBehavior.AllowGet);
         }
 
+        private string ConvertirImagenBase64(string rutaRelativa)
+        {
+            try
+            {
+                // Convierte la ruta relativa a la ruta física en el servidor
+                string rutaCompleta = Server.MapPath(rutaRelativa);
+                return utilidades.convertirBase64(rutaCompleta);
+            }
+            catch (Exception ex)
+            {
+                // Manejo de excepciones: puedes registrar el error o devolver un valor predeterminado
+                Console.WriteLine($"Error al convertir la imagen a Base64: {ex.Message}");
+                return null; // O una cadena vacía, según lo que necesites
+            }
+        }
+
+
+=======
+        }
+
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
         [HttpPost]
         public JsonResult GuardarProducto(string objeto, HttpPostedFileBase imagenArchivo)
         {

@@ -14,4 +14,9 @@ namespace ProyectoTest.Logica
             return file;
         }
     }
+<<<<<<< HEAD
 }
+
+=======
+}
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476

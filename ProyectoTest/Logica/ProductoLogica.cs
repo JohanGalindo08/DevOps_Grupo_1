@@ -18,6 +18,16 @@ namespace ProyectoTest.Logica
 
         }
 
+<<<<<<< HEAD
+        private readonly IDatabase _database;
+
+        public ProductoLogica(IDatabase database)
+        {
+            _database = database;
+        }
+
+=======
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
         public static ProductoLogica Instancia
         {
             get
@@ -52,7 +62,11 @@ namespace ProyectoTest.Logica
                             IdProducto = Convert.ToInt32(dr["IdProducto"].ToString()),
                             Nombre = dr["Nombre"].ToString(),
                             Descripcion = dr["Descripcion"].ToString(),
+<<<<<<< HEAD
+                            oMarca = new Marca() { IdMarca = Convert.ToInt32(dr["IdMarca"].ToString()), Descripcion = dr["DescripcionMarca"].ToString() },
+=======
                             oMarca = new Marca() { IdMarca = Convert.ToInt32(dr["IdMarca"].ToString()),Descripcion = dr["DescripcionMarca"].ToString() },
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
                             oCategoria = new Categoria() { IdCategoria = Convert.ToInt32(dr["IdCategoria"].ToString()), Descripcion = dr["DescripcionCategoria"].ToString() },
                             Precio = Convert.ToDecimal(dr["Precio"].ToString(), new CultureInfo("es-PE")),
                             Stock = Convert.ToInt32(dr["Stock"].ToString()),
@@ -108,6 +122,29 @@ namespace ProyectoTest.Logica
             return respuesta;
         }
 
+<<<<<<< HEAD
+
+        /*public new int Registrar(Producto oProducto)
+        {
+            string query = "sp_registrarProducto";
+            SqlParameter[] parameters = {
+            new SqlParameter("Nombre", oProducto.Nombre),
+            new SqlParameter("Descripcion", oProducto.Descripcion),
+            new SqlParameter("IdMarca", oProducto.oMarca.IdMarca),
+            new SqlParameter("IdCategoria", oProducto.oCategoria.IdCategoria),
+            new SqlParameter("Precio", oProducto.Precio),
+            new SqlParameter("Stock", oProducto.Stock),
+            new SqlParameter("RutaImagen", oProducto.RutaImagen),
+            new SqlParameter("Resultado", SqlDbType.Int) { Direction = ParameterDirection.Output }
+        };
+
+            _database.ExecuteNonQuery(query, parameters);
+
+            return Convert.ToInt32(parameters.First(p => p.ParameterName == "Resultado").Value);
+        }*/
+
+=======
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
         public bool Modificar(Producto oProducto)
         {
             bool respuesta = false;
@@ -194,5 +231,17 @@ namespace ProyectoTest.Logica
 
         }
 
+<<<<<<< HEAD
+
+        /*public new bool Eliminar(int id)
+        {
+            string query = "delete from Producto where idProducto = @id";
+            SqlParameter[] parameters = { new SqlParameter("@id", id) };
+
+            return _database.ExecuteNonQuery(query, parameters);
+        }*/
+
+=======
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
     }
 }
