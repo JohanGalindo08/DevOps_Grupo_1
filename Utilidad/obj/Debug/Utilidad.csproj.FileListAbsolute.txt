@@ -1,0 +1,6 @@
+C:\Users\braya\Desktop\Personal Document\Projects\026_SistemaCarritoCompras-main\Utilidad\bin\Debug\Utilidad.dll
+C:\Users\braya\Desktop\Personal Document\Projects\026_SistemaCarritoCompras-main\Utilidad\bin\Debug\Utilidad.pdb
+C:\Users\braya\Desktop\Personal Document\Projects\026_SistemaCarritoCompras-main\Utilidad\obj\Debug\Utilidad.csproj.AssemblyReference.cache
+C:\Users\braya\Desktop\Personal Document\Projects\026_SistemaCarritoCompras-main\Utilidad\obj\Debug\Utilidad.csproj.CoreCompileInputs.cache
+C:\Users\braya\Desktop\Personal Document\Projects\026_SistemaCarritoCompras-main\Utilidad\obj\Debug\Utilidad.dll
+C:\Users\braya\Desktop\Personal Document\Projects\026_SistemaCarritoCompras-main\Utilidad\obj\Debug\Utilidad.pdb
