@@ -1,4 +1,4 @@
-﻿using ProyectoTest.Models;
+﻿ using ProyectoTest.Models;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -16,6 +16,13 @@ namespace ProyectoTest.Logica
         public CompraLogica()
         {
 
+        }
+
+        private readonly IDatabase _database;
+
+        public CompraLogica(IDatabase database)
+        {
+            _database = database;
         }
 
         public static CompraLogica Instancia

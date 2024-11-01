@@ -10,7 +10,12 @@ namespace ProyectoTest.Logica
 {
     public class UsuarioLogica
     {
+        private readonly IDatabase _database;
         private static UsuarioLogica _instancia = null;
+
+
+       
+
 
         public UsuarioLogica()
         {
@@ -29,6 +34,22 @@ namespace ProyectoTest.Logica
                 return _instancia;
             }
         }
+
+        public UsuarioLogica(IDatabase database)
+        {
+            _database = database;
+        }
+
+        public static UsuarioLogica GetInstancia(IDatabase database)
+        {
+            if (_instancia == null)
+            {
+                _instancia = new UsuarioLogica(database);
+            }
+            return _instancia;
+        }
+
+
 
         public Usuario Obtener(string _correo, string _contrasena)
         {
@@ -98,5 +119,35 @@ namespace ProyectoTest.Logica
             }
             return respuesta;
         }
+
+
+        /*public int Registrar(Usuario oUsuario)
+        {
+            int respuesta = 0;
+            try
+            {
+                var parameters = new[]
+                {
+            new SqlParameter("Nombres", oUsuario.Nombres),
+            new SqlParameter("Apellidos", oUsuario.Apellidos),
+            new SqlParameter("Correo", oUsuario.Correo),
+            new SqlParameter("Contrasena", oUsuario.Contrasena),
+            new SqlParameter("EsAdministrador", oUsuario.EsAdministrador),
+            new SqlParameter("Resultado", SqlDbType.Int) { Direction = ParameterDirection.Output }
+        };
+
+                // Usar IDatabase para ejecutar el comando simulado
+                if (_database.ExecuteNonQuery("sp_registrarUsuario", parameters))
+                {
+                    respuesta = (int)parameters.First(p => p.ParameterName == "Resultado").Value;
+                }
+            }
+            catch (Exception ex)
+            {
+                respuesta = 0;
+            }
+            return respuesta;
+        }*/
+
     }
 }
