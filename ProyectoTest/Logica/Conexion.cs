@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+<<<<<<< HEAD
 using System.Data.SqlClient;
+=======
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
 
 namespace ProyectoTest.Logica
 {
@@ -10,6 +13,7 @@ namespace ProyectoTest.Logica
     {
         public static string CN = "Data Source=.;Initial Catalog=DB_CARRITO;Integrated Security=True";
     }
+<<<<<<< HEAD
 
 
     public interface IDatabase
@@ -33,4 +37,6 @@ namespace ProyectoTest.Logica
         }
     }
 
+=======
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
 }

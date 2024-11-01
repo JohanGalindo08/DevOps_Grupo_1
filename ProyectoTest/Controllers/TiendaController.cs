@@ -48,8 +48,12 @@ namespace ProyectoTest.Controllers
                           Precio = o.Precio,
                           Stock = o.Stock,
                           RutaImagen = o.RutaImagen,
+<<<<<<< HEAD
                           //base64 = utilidades.convertirBase64(Server.MapPath(o.RutaImagen)),
                           base64 = ConvertirImagenBase64(o.RutaImagen),
+=======
+                          base64 = utilidades.convertirBase64(Server.MapPath(o.RutaImagen)),
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
                           extension = Path.GetExtension(o.RutaImagen).Replace(".", ""),
                           Activo = o.Activo
                       }).FirstOrDefault();
@@ -101,9 +105,13 @@ namespace ProyectoTest.Controllers
                           Precio = o.Precio,
                           Stock = o.Stock,
                           RutaImagen = o.RutaImagen,
+<<<<<<< HEAD
                           //base64 = utilidades.convertirBase64(Server.MapPath(o.RutaImagen)),
                           base64 = ConvertirImagenBase64(o.RutaImagen),
 
+=======
+                          base64 = utilidades.convertirBase64(Server.MapPath(o.RutaImagen)),
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
                           extension = Path.GetExtension(o.RutaImagen).Replace(".", ""),
                           Activo = o.Activo
                       }).ToList();
@@ -164,9 +172,13 @@ namespace ProyectoTest.Controllers
                                   oMarca = new Marca() { Descripcion = d.oProducto.oMarca.Descripcion },
                                   Precio = d.oProducto.Precio,
                                   RutaImagen = d.oProducto.RutaImagen,
+<<<<<<< HEAD
                                   //base64 = utilidades.convertirBase64(Server.MapPath(d.oProducto.RutaImagen)),
                                   base64 = ConvertirImagenBase64(d.oProducto.RutaImagen),
 
+=======
+                                  base64 = utilidades.convertirBase64(Server.MapPath(d.oProducto.RutaImagen)),
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
                                   extension = Path.GetExtension(d.oProducto.RutaImagen).Replace(".", ""),
                               }
                           }).ToList();
@@ -244,8 +256,11 @@ namespace ProyectoTest.Controllers
                                                     Nombre = dc.oProducto.Nombre,
                                                     RutaImagen = dc.oProducto.RutaImagen,
                                                     base64 = utilidades.convertirBase64(Server.MapPath(dc.oProducto.RutaImagen)),
+<<<<<<< HEAD
                                                     //base64 = ConvertirImagenBase64(dc.oProducto.RutaImagen),
 
+=======
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
                                                     extension = Path.GetExtension(dc.oProducto.RutaImagen).Replace(".", ""),
                                                 },
                                                 Total = dc.Total,
@@ -254,6 +269,7 @@ namespace ProyectoTest.Controllers
                       }).ToList();
             return Json(new { lista = oLista }, JsonRequestBehavior.AllowGet);
         }
+<<<<<<< HEAD
 
         private string ConvertirImagenBase64(string rutaRelativa)
         {
@@ -280,4 +296,7 @@ namespace ProyectoTest.Controllers
     }
 
 
+=======
+    }
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
 }

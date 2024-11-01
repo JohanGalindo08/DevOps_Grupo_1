@@ -10,6 +10,7 @@ namespace ProyectoTest.Logica
 {
     public class UsuarioLogica
     {
+<<<<<<< HEAD
         private readonly IDatabase _database;
         private static UsuarioLogica _instancia = null;
 
@@ -17,6 +18,10 @@ namespace ProyectoTest.Logica
        
 
 
+=======
+        private static UsuarioLogica _instancia = null;
+
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
         public UsuarioLogica()
         {
 
@@ -35,6 +40,7 @@ namespace ProyectoTest.Logica
             }
         }
 
+<<<<<<< HEAD
         public UsuarioLogica(IDatabase database)
         {
             _database = database;
@@ -51,6 +57,8 @@ namespace ProyectoTest.Logica
 
 
 
+=======
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
         public Usuario Obtener(string _correo, string _contrasena)
         {
             Usuario objeto = null;
@@ -119,6 +127,7 @@ namespace ProyectoTest.Logica
             }
             return respuesta;
         }
+<<<<<<< HEAD
 
 
         /*public int Registrar(Usuario oUsuario)
@@ -149,5 +158,7 @@ namespace ProyectoTest.Logica
             return respuesta;
         }*/
 
+=======
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
     }
 }

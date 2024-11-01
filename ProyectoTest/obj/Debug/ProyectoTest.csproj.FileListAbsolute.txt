@@ -413,6 +413,7 @@ C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest
 C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest\obj\Debug\Proyecto.B8EEF35F.Up2Date
 C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest\obj\Debug\ProyectoTest.dll
 C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest\obj\Debug\ProyectoTest.pdb
+<<<<<<< HEAD
 C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest\bin\Azure.Core.dll
 C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest\bin\Azure.Identity.dll
 C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest\bin\Castle.Core.dll
@@ -488,3 +489,5 @@ C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest
 C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest\bin\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest\bin\System.Data.SqlClient.dll
 C:\Users\braya\Desktop\Personal Document\Projects\EcomercceASP-main\ProyectoTest\bin\System.Data.SqlClient.xml
+=======
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476

@@ -100,7 +100,11 @@ namespace ProyectoTest.Controllers
 
 
 
+<<<<<<< HEAD
         /*[HttpGet]
+=======
+        [HttpGet]
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
         public JsonResult ListarProducto()
         {
             List<Producto> oLista = new List<Producto>();
@@ -122,6 +126,7 @@ namespace ProyectoTest.Controllers
                           Activo = o.Activo
                       }).ToList();
             return Json(new { data = oLista }, JsonRequestBehavior.AllowGet);
+<<<<<<< HEAD
         }*/
 
         [HttpGet]
@@ -168,6 +173,10 @@ namespace ProyectoTest.Controllers
         }
 
 
+=======
+        }
+
+>>>>>>> bfa03de5ce5317cadb11a56dfda7c7f899918476
         [HttpPost]
         public JsonResult GuardarProducto(string objeto, HttpPostedFileBase imagenArchivo)
         {

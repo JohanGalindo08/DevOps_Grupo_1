@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\proyectotest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|c:\\users\\braya\\desktop\\personal document\\projects\\ecomercceasp-main\\proyectotest\\controllers\\tiendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\controllers\\tiendacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\proyectotest\\logica\\compralogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\logica\\compralogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\proyectotest\\logica\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\logica\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoTest\\Controllers\\HomeController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A33010A9-78D0-469A-AF25-100598EBDB71}|Tests\\Tests.csproj|c:\\users\\braya\\desktop\\personal document\\projects\\ecomercceasp-main\\tests\\addtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A33010A9-78D0-469A-AF25-100598EBDB71}|Tests\\Tests.csproj|solutionrelative:tests\\addtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\proyectotest\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0089E960-06E0-4CCD-BDC9-DEE0C595CFE7}|ProyectoTest\\ProyectoTest.csproj|solutionrelative:proyectotest\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Logica\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoTest\\Logica\\utilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Logica\\CompraLogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoTest\\Logica\\CompraLogica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Models\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoTest\\Models\\Producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Controllers\\TiendaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoTest\\Controllers\\TiendaController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,19 +38,19 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "addTest.cs",
               "DocumentMoniker": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\Tests\\addTest.cs",
               "RelativeDocumentMoniker": "Tests\\addTest.cs",
               "ToolTip": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\Tests\\addTest.cs",
               "RelativeToolTip": "Tests\\addTest.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAzwCQAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCsAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T20:18:03.59Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "utilidades.cs",
               "DocumentMoniker": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Logica\\utilidades.cs",
               "RelativeDocumentMoniker": "ProyectoTest\\Logica\\utilidades.cs",
@@ -62,19 +62,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CompraLogica.cs",
               "DocumentMoniker": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Logica\\CompraLogica.cs",
               "RelativeDocumentMoniker": "ProyectoTest\\Logica\\CompraLogica.cs",
               "ToolTip": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Logica\\CompraLogica.cs",
               "RelativeToolTip": "ProyectoTest\\Logica\\CompraLogica.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwEkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAA1wEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T16:56:23.267Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Models\\Producto.cs",
               "RelativeDocumentMoniker": "ProyectoTest\\Models\\Producto.cs",
@@ -86,16 +86,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "TiendaController.cs",
               "DocumentMoniker": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Controllers\\TiendaController.cs",
               "RelativeDocumentMoniker": "ProyectoTest\\Controllers\\TiendaController.cs",
-              "ToolTip": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Controllers\\TiendaController.cs*",
-              "RelativeToolTip": "ProyectoTest\\Controllers\\TiendaController.cs*",
+              "ToolTip": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Controllers\\TiendaController.cs",
+              "RelativeToolTip": "ProyectoTest\\Controllers\\TiendaController.cs",
               "ViewState": "AgIAAOAAAAAAAAAAAAAuwPkAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T18:19:55.059Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-01T18:19:55.059Z"
             },
             {
               "$type": "Document",
@@ -103,9 +102,9 @@
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "ProyectoTest\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Controllers\\HomeController.cs*",
-              "RelativeToolTip": "ProyectoTest\\Controllers\\HomeController.cs*",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAiwKoAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\braya\\Desktop\\Personal Document\\Projects\\EcomercceASP-main\\ProyectoTest\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ProyectoTest\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAswFQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T18:11:14.879Z",
               "EditorCaption": ""
